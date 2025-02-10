@@ -322,6 +322,45 @@ first_frame_values = [
     1413
 ]
 
+#ppd_file_path = r'H:\Jun\sensory_stim\grab5ht\sham\1505_sham-2025-01-20-153627.ppd'
+#ppd_file_path = r'H:\Jun\sensory_stim\grab5ht\sham\1506_sham-2025-01-20-163405.ppd'
+#ppd_file_path = r'H:\Jun\sensory_stim\grab5ht\sham\1507_sham-2025-01-20-174233.ppd'
+#ppd_file_path = r'H:\Jun\sensory_stim\grab5ht\sham\1508_sham-2025-01-20-184548.ppd'
+#ppd_file_path = r'H:\Jun\sensory_stim\grab5ht\sham\1631_sham-2025-01-21-150804.ppd'
+ppd_file_path = r'H:\Jun\sensory_stim\grab5ht\sham\1632_sham-2025-01-21-161846.ppd'
+
+ppd_file_paths = [
+    r'H:\Jun\sensory_stim\grab5ht\SNI\1502_SNI-2025-01-17-141825.ppd',
+    r'H:\Jun\sensory_stim\grab5ht\SNI\1502_SNI-2025-01-17-141825.ppd',
+    r'H:\Jun\sensory_stim\grab5ht\SNI\1503_SNI-2025-01-20-102826.ppd',
+    r'H:\Jun\sensory_stim\grab5ht\SNI\1504_SNI-2025-01-20-112622.ppd',
+    r'H:\Jun\sensory_stim\grab5ht\SNI\1629_SNI-2025-01-20-224406.ppd',
+    r'H:\Jun\sensory_stim\grab5ht\SNI\1630_SNI-2025-01-20-234350.ppd',
+    r'H:\Jun\sensory_stim\grab5ht\sham\1505_sham-2025-01-20-153627.ppd',
+    r'H:\Jun\sensory_stim\grab5ht\sham\1506_sham-2025-01-20-163405.ppd',
+    r'H:\Jun\sensory_stim\grab5ht\sham\1507_sham-2025-01-20-174233.ppd',
+    r'H:\Jun\sensory_stim\grab5ht\sham\1508_sham-2025-01-20-184548.ppd',
+    r'H:\Jun\sensory_stim\grab5ht\sham\1631_sham-2025-01-21-150804.ppd',
+    r'H:\Jun\sensory_stim\grab5ht\sham\1632_sham-2025-01-21-161846.ppd'
+
+]
+
+first_frame_values = [
+    1171,
+    1870,
+    1203,
+    1423,
+    1503,
+    1642,
+
+    2167,
+    1192,
+    1980,
+    1898,
+    1541,
+    1575
+]
+
 # Process each PPD file
 for ppd_file, first_frame in zip(ppd_file_paths, first_frame_values):
     process_ppd(ppd_file, first_frame)
