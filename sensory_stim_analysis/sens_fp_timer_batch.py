@@ -361,6 +361,40 @@ first_frame_values = [
     1575
 ]
 
+
+ppd_file_paths = [
+    r'H:\Jun\sensory_stim\grab5ht_high\1501_sni-2025-04-08-164833.ppd',
+    r'H:\Jun\sensory_stim\grab5ht_high\1502_sni-2025-04-09-092223.ppd',
+    r'H:\Jun\sensory_stim\grab5ht_high\1503_sni-2025-04-10-174046.ppd',
+    r'H:\Jun\sensory_stim\grab5ht_high\1504_sni-2025-04-12-151252.ppd',
+    r'H:\Jun\sensory_stim\grab5ht_high\1629_sni-2025-04-03-151401.ppd',
+    r'H:\Jun\sensory_stim\grab5ht_high\1630_sni-2025-04-03-163943.ppd',
+
+    r'H:\Jun\sensory_stim\grab5ht_high\1505_sham-2025-04-13-120900.ppd',
+    r'H:\Jun\sensory_stim\grab5ht_high\1506_sham-2025-04-13-225430.ppd',
+    r'H:\Jun\sensory_stim\grab5ht_high\1507_sham-2025-04-15-142045.ppd',
+    r'H:\Jun\sensory_stim\grab5ht_high\1508_sham-2025-04-15-182857.ppd',
+    r'H:\Jun\sensory_stim\grab5ht_high\1631_sham-2025-04-16-020512.ppd',
+    r'H:\Jun\sensory_stim\grab5ht_high\1632_sham-2025-04-16-215914.ppd'
+
+]
+
+first_frame_values = [
+    1091,
+    1270,
+    1562,
+    1188,
+    1105,
+    1219,
+
+    2339,
+    1085,
+    3162,
+    1861,
+    1431,
+    1198
+]
+
 # Process each PPD file
 for ppd_file, first_frame in zip(ppd_file_paths, first_frame_values):
     process_ppd(ppd_file, first_frame)
